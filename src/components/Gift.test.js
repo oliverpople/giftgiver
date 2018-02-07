@@ -35,5 +35,6 @@ describe('Gift', () => {
     it('update the present in `state`', () => {
       expect(gift.state().present).toEqual(present);
     });
+
   });
 });
