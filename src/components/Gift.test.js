@@ -9,4 +9,8 @@ describe('Gift', () => {
     expect(gift).toMatchSnapshot();
   });
 
+  it('initializes a person and present in `state`', () => {
+    expect(gift.state()).toEqual({ person: '', present: '' });
+  });
+
 });
